@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         val displayTextView = findViewById<TextView>(R.id.textDisplay)
 
         /* Step 1: Populate this array */
-        val a = Array(100){0}
+        val a = IntArray(100) // Array(100){it}
 
         for( i in 100 downTo  1){
             a[i-1] = i
